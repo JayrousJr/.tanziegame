@@ -73,7 +73,7 @@ function App() {
   return (
     <main>
       {gameOver && <Confetti className="confetti" />}
-      <h1 className="head">Dice Roll</h1>
+      <h1 className="head">Lego Dice Roll</h1>
       <p className="instruction">
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls
